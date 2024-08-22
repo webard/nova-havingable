@@ -1,0 +1,53 @@
+{
+    "name": "webard/nova-havingable",
+    "description": "Havingable marco for Laravel Nova fields, allowing filter aggregated values.",
+    "keywords": [
+        "webard",
+        "laravel",
+        "nova",
+        "filter"
+    ],
+    "homepage": "https://github.com/webard/nova-havingable",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Webard",
+            "email": "code@webard.me",
+            "role": "Developer"
+        }
+    ],
+    "repositories": {
+        "nova": {
+            "type": "composer",
+            "url": "https://nova.laravel.com"
+        }
+    },
+    "require": {
+        "php": "^8.1",
+        "illuminate/support": "^10.0|^11.0",
+        "laravel/nova": "^4.20"
+    },
+    "autoload": {
+        "psr-4": {
+            "Webard\\NovaHavingable\\": "src"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Webard\\NovaHavingable\\NovaHavingableServiceProvider"
+            ]
+        }
+    },
+    "require-dev": {
+        "laravel/pint": "^1.15"
+    }
+}
