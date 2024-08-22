@@ -1,6 +1,6 @@
 {
     "name": "webard/nova-havingable",
-    "description": "Havingable marco for Laravel Nova fields, allowing filter aggregated values.",
+    "description": "Havingable macro for Laravel Nova fields, allowing filtering of aggregated values.",
     "keywords": [
         "webard",
         "laravel",
