@@ -2,7 +2,7 @@
 
 namespace Webard\NovaHavingable;
 
-class TextComparison
+class EqualComparison
 {
     public function __invoke($request, $query, $value, $attribute)
     {

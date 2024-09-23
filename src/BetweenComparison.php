@@ -2,7 +2,7 @@
 
 namespace Webard\NovaHavingable;
 
-class NumberComparison
+class BetweenComparison
 {
     public function __invoke($request, $query, $value, $attribute)
     {
